@@ -40,9 +40,9 @@ jobs:
           body: |
             {
               "username": "GitHub",
-              "embeds": [
+              "embeds": [{
                 "title": "Новый коммит в основной ветке",
                 "url": "https://github.com/paukahn/Syncro-frontend",
                 "description": "Чтобы узнать подробности, нажмите на это сообщение"
-              ]
+              }]
             }
