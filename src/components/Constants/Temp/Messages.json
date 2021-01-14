@@ -1,0 +1,27 @@
+[
+    {
+        "sender_id": "0",
+        "receiver_id": "1",
+        "message": "Привет, друг!"
+    },
+    {
+        "sender_id": "1",
+        "receiver_id": "0",
+        "message": "И тебе привет!"
+    },
+    {
+        "sender_id": "0",
+        "receiver_id": "1",
+        "message": "Как дела?"
+    },
+    {
+        "sender_id": "1",
+        "receiver_id": "0",
+        "message": "Нормально, а у тебя?"
+    },
+    {
+        "sender_id": "0",
+        "receiver_id": "1",
+        "message": "Отлично!"
+    }
+]
