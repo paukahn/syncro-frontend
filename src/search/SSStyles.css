@@ -21,3 +21,14 @@
     font-size: 0.7rem;
 
 }
+
+@media (min-width: 1920px) {
+    .info_list_search {
+        height: 70px;
+    }
+
+    .search {
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+}

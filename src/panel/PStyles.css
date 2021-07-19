@@ -45,3 +45,13 @@ body {
     height: 100%; 
     background: #D0D1DA;  
 }
+
+@media (min-width: 1920px) {
+    .panel_socials {
+        width: 70px
+    }
+
+    .panel_info_list {
+        width: 450px; 
+    }
+}
