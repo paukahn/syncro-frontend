@@ -1,0 +1,68 @@
+.list_element {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.list_element_wrap {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.element_image {
+    background:chartreuse;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.right_wrap {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 50px);
+    height: 40px;
+}
+
+.up_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 50%;
+}
+
+.element_user {
+    width: auto;
+    height: 100%;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 5px;
+}
+
+.element_time {
+    display: flex;
+    width: auto;
+    height: 100%;
+}
+
+.element_message {
+    width: 100%;
+    height: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list_element:hover {
+    background: #43598C;
+    color: #ffffff;
+}
