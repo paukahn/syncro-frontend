@@ -1,4 +1,5 @@
 import React from 'react';
+import { Chat } from '../chat/Chat';
 import { SearchSection } from '../search/SearchSection';
 import { UsersList } from '../usersList/UsersList';
 import './PStyles.css';
@@ -11,7 +12,9 @@ export const Panel = () => {
                 <SearchSection />
                 <UsersList />
             </div>
-            <div class="panel_chat"></div>
+            <div class="panel_chat">
+                <Chat />
+            </div>
         </div>
     );
 };
