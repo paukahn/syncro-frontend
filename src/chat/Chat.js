@@ -1,9 +1,8 @@
 import React from 'react';
-import Textarea from 'react-textarea-autosize';
 import { ReactComponent as Send } from '../svg/send.svg';
 import { ReactComponent as Smile } from '../svg/smile.svg';
 import { ReactComponent as Paperclip } from '../svg/paperclip.svg';
-import './CStyles.css';
+import '../css/Chat.css';
 
 export const Chat = () => {
     return (
@@ -17,10 +16,12 @@ export const Chat = () => {
                 </div>
             </div>
             <div class="chat_input_section">
-                <Paperclip class="files_button" />
-                <Smile class="smile_button" />
-                <Textarea class="input_element" minRows="1" maxRows="5" placeholder="Написать сообщение..." />
-                <Send class="send_button" />
+                <div class="input_element" contenteditable="true" placeholder="Написать сообщение..."></div>
+                <div className="input_buttons">
+                    <Paperclip class="files_button" />
+                    <Smile class="smile_button" />
+                    <Send class="send_button" />
+                </div>
             </div>
         </div>
     );
