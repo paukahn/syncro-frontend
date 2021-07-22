@@ -2,7 +2,7 @@ import React from 'react';
 import { Chat } from '../chat/Chat';
 import { SearchSection } from '../search/SearchSection';
 import { UsersList } from '../usersList/UsersList';
-import './PStyles.css';
+import '../css/Panel.css';
 
 export const Panel = () => {
     return (

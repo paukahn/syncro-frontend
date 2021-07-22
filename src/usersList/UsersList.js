@@ -1,5 +1,5 @@
 import React from 'react';
-import './ULStyles.css';
+import '../css/UserList.css';
 
 export const UsersList = () => {
     return (

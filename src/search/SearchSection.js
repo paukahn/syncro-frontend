@@ -1,5 +1,5 @@
 import React from 'react';
-import './SSStyles.css';
+import '../css/SearchSection.css';
 
 export const SearchSection = () => {
     return (
